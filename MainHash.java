@@ -16,8 +16,8 @@ public class MainHash {
             RelatorioHash relatorioSoma          = new RelatorioHash(tamanho, tamanhoConjunto);
             RelatorioHash relatorioMultiplicacao = new RelatorioHash(tamanho, tamanhoConjunto);
     
-            // relatorioResto.testarInsercaoResto();
-            // relatorioResto.testarBuscaResto();
+            relatorioResto.testarInsercaoResto();
+            relatorioResto.testarBuscaResto();
 
             relatorioSoma.testarInsercaoSoma();
             relatorioSoma.testarBuscaSoma();
